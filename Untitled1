@@ -1,0 +1,11 @@
+cd simple_board/
+
+
+git init
+
+
+
+git add .
+
+
+ git commit -m "init" 
