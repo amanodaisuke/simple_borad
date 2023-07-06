@@ -1,11 +1,5 @@
-cd simple_board/
+Rails.application.routes.draw do
+  resources :posts
 
-
-git init
-
-
-
-git add .
-
-
- git commit -m "init" 
+root to: "posts#index"
+end
